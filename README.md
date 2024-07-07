@@ -1,10 +1,7 @@
 # ESP32ControlPanel1
 This project is a modification of the ever-popular controlling of an LED via wifi. 
-
-You get like 10 LEDs, along with cute m/c and double-pole switches. 
-Modification is an expansive word. This project uses a browser to control and display the LED states (if you want to avoid a whole lot of problems, use Firefox [you've been warned]).
-Unlike similar projects ESP32ControlPanel1 does NOT use HTML. Just for fun (and to satiate my sadistic tendencies) I use SVG (which is why you should use Firefox [second warning]).
-This project works (yet another expansive word). My comments.
+The project controls 14 GPIO port pins via a browser. 
+This project uses SVG (not HTML). As different browsers render SVG differently use of Firefox is suggested [you've been warned]).
   You should use the Arduino IDE 1.8x (or you could screw around with Visual Studio Code or, horror of all horrors, the Espressif IDE). Why? Because SPIFFS loads the needed files and the new Arduino IDE does not support SPIFFS.
   You could also try the LittleFS file system. Last year it was BIG, this year it seems to have disappeared. hmmmm
   SPIFFS loads three files into your browser: index.svg/script.js/styles.css.
