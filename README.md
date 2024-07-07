@@ -1,5 +1,7 @@
 # ESP32ControlPanel1
-This project is a modification of the ever-popular controlling of an LED via wifi. You get like 10 LEDs, along with cute m/c and double-pole switches. 
+This project is a modification of the ever-popular controlling of an LED via wifi. 
+
+You get like 10 LEDs, along with cute m/c and double-pole switches. 
 Modification is an expansive word. This project uses a browser to control and display the LED states (if you want to avoid a whole lot of problems, use Firefox [you've been warned]).
 Unlike similar projects ESP32ControlPanel1 does NOT use HTML. Just for fun (and to satiate my sadistic tendencies) I use SVG (which is why you should use Firefox [second warning]).
 This project works (yet another expansive word). My comments.
